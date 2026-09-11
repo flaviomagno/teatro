@@ -16,6 +16,15 @@
   kind: ensaio
   note: ""
 
+- title: Ensaio regular de sexta-feira
+  date: 2026-09-11T18:10:00-03:00
+  display_date: 11/09/2026
+  weekday: sexta
+  time: 18:10h
+  place: A definir
+  kind: ensaio
+  note: Ensaio regular de sexta-feira
+
 - title: Ensaio - Sala Multiuso
   date: 2026-09-12T15:00:00-03:00
   display_date: 12/09/2026
@@ -34,6 +43,15 @@
   kind: ensaio
   note: ""
 
+- title: Ensaio regular de sexta-feira
+  date: 2026-09-18T18:10:00-03:00
+  display_date: 18/09/2026
+  weekday: sexta
+  time: 18:10h
+  place: A definir
+  kind: ensaio
+  note: Ensaio regular de sexta-feira
+
 - title: Ensaio - Teatro Sesc Prainha
   date: 2026-09-20T16:00:00-03:00
   display_date: 20/09/2026
@@ -42,6 +60,24 @@
   place: Teatro Sesc Prainha
   kind: ensaio
   note: ""
+
+- title: Ensaio regular de sexta-feira
+  date: 2026-09-25T18:10:00-03:00
+  display_date: 25/09/2026
+  weekday: sexta
+  time: 18:10h
+  place: A definir
+  kind: ensaio
+  note: Ensaio regular de sexta-feira
+
+- title: Ensaio regular de sexta-feira
+  date: 2026-10-02T18:10:00-03:00
+  display_date: 02/10/2026
+  weekday: sexta
+  time: 18:10h
+  place: A definir
+  kind: ensaio
+  note: Ensaio regular de sexta-feira
 
 - title: Ensaio - Sala Multiuso
   date: 2026-10-03T15:00:00-03:00
@@ -60,6 +96,15 @@
   place: Teatro Sesc Prainha
   kind: ensaio
   note: ""
+
+- title: Ensaio regular de sexta-feira
+  date: 2026-10-09T18:10:00-03:00
+  display_date: 09/10/2026
+  weekday: sexta
+  time: 18:10h
+  place: A definir
+  kind: ensaio
+  note: Último ensaio regular de sexta-feira antes da estreia
 
 - title: Estreia Fuenteovejuna
   date: 2026-10-16T19:00:00-03:00
