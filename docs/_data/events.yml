@@ -1,4 +1,22 @@
-- title: Ensaio sala multiuso
+- title: Ensaio - Teatro Sesc Prainha
+  date: 2026-08-24T18:00:00-03:00
+  display_date: 24/08/2026
+  weekday: segunda
+  time: 18h
+  place: Teatro Sesc Prainha
+  kind: ensaio
+  note: ""
+
+- title: Ensaio - Teatro Sesc Prainha
+  date: 2026-08-30T16:00:00-03:00
+  display_date: 30/08/2026
+  weekday: domingo
+  time: 16h
+  place: Teatro Sesc Prainha
+  kind: ensaio
+  note: ""
+
+- title: Ensaio - Sala Multiuso
   date: 2026-09-12T15:00:00-03:00
   display_date: 12/09/2026
   weekday: sábado
@@ -7,7 +25,7 @@
   kind: ensaio
   note: ""
 
-- title: Ensaio no teatro
+- title: Ensaio - Teatro Sesc Prainha
   date: 2026-09-16T17:00:00-03:00
   display_date: 16/09/2026
   weekday: quarta
@@ -16,7 +34,7 @@
   kind: ensaio
   note: ""
 
-- title: Ensaio no teatro
+- title: Ensaio - Teatro Sesc Prainha
   date: 2026-09-20T16:00:00-03:00
   display_date: 20/09/2026
   weekday: domingo
@@ -25,16 +43,7 @@
   kind: ensaio
   note: ""
 
-- title: Ensaio no teatro
-  date: 2026-09-28T18:00:00-03:00
-  display_date: 28/09/2026
-  weekday: segunda
-  time: 18h
-  place: Teatro Sesc Prainha
-  kind: ensaio
-  note: ""
-
-- title: Ensaio sala multiuso
+- title: Ensaio - Sala Multiuso
   date: 2026-10-03T15:00:00-03:00
   display_date: 03/10/2026
   weekday: sábado
@@ -43,7 +52,16 @@
   kind: ensaio
   note: ""
 
-- title: Estreia — Fuenteovejuna
+- title: Ensaio - Teatro Sesc Prainha
+  date: 2026-10-05T18:30:00-03:00
+  display_date: 05/10/2026
+  weekday: segunda
+  time: 18:30h
+  place: Teatro Sesc Prainha
+  kind: ensaio
+  note: ""
+
+- title: Estreia Fuenteovejuna
   date: 2026-10-16T19:00:00-03:00
   display_date: 16/10/2026
   weekday: sexta
