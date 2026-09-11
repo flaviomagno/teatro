@@ -16,6 +16,29 @@ title: Afazeres
 - [ ] Ensaiar a sequência final de interrogatório
 - [ ] Integrar o terceiro ato ao restante da peça
 
+## Objetos prioritários
+
+O checklist detalhado está em **[Objetos de cena]({{ '/objetos/' | relative_url }})** e as soluções de fabricação estão em **[Alternativas artesanais]({{ '/alternativas/' | relative_url }})**.
+
+- [x] Besta
+- [x] Chicote
+- [ ] Faca de Mengo
+- [ ] Espadas
+- [ ] Vara de Estevão
+- [ ] Canecas
+- [ ] Cestos dos presentes
+- [ ] Louças
+- [ ] Comidas cenográficas dos presentes
+- [ ] Barril(is) de vinho
+- [ ] Flores
+- [ ] Pau-de-arara + amarras
+- [ ] Esponja da cena de Felipe
+- [ ] Tronco de tortura
+- [ ] Estaca + cabeça cenográfica do Comendador
+- [ ] Escudo do Comendador / Calatrava
+- [ ] Escudo dos Reis Católicos
+- [ ] Água, vinho e cesto de comida da cena final
+
 ## Figurino e caracterização
 
 - [ ] Conferir figurino de cada personagem
@@ -23,12 +46,14 @@ title: Afazeres
 - [ ] Fechar cabelos, barbas e adereços
 - [ ] Fazer teste completo de caracterização
 
-## Cenografia e objetos
+## Cenografia e segurança
 
-- [ ] Consolidar lista de cenário
-- [ ] Consolidar objetos de cena
-- [ ] Definir responsáveis
-- [ ] Conferir segurança das cenas físicas
+- [ ] Resolver moita / esconderijo de Felipe
+- [ ] Resolver praticável de Felipe e Laurência
+- [ ] Resolver estrutura do bar da Gila
+- [ ] Resolver porta / portão da casa do Comendador
+- [ ] Preparar local de troca dos escudos
+- [ ] Conferir segurança das estruturas de prisão / tortura
 - [ ] Finalizar a solução do “varal humano”
 
 ## Técnica
