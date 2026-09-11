@@ -3,14 +3,10 @@ layout: default
 description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 ---
 
-<section class="hero">
-<div class="wrap hero-grid">
-<div>
-<p class="eyebrow">Montagem teatral · 2026</p>
-<h1>Fuenteovejuna</h1>
-<p class="subtitle">Uma aldeia. Uma tirania. Uma resposta coletiva.</p>
+<section class="hero hero-art">
+<div class="hero-art-spacer" aria-label="Fuenteovejuna — É de todos. Por todas."></div>
+<div class="wrap hero-tools">
 <div class="pills"><span class="pill">Florianópolis</span><span class="pill">Teatro Sesc Prainha</span><span class="pill">Estreia · 16 out</span></div>
-</div>
 <aside class="count" data-countdown="2026-10-16T19:00:00-03:00">
 <p class="eyebrow" data-label>Contagem para a estreia</p>
 <div class="count-grid">
