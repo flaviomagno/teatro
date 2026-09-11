@@ -7,7 +7,7 @@ description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 <div class="wrap hero-grid">
 <div>
 <p class="eyebrow">Montagem teatral · 2026</p>
-<h1>Fuente<br>ovejuna</h1>
+<h1>Fuenteovejuna</h1>
 <p class="subtitle">Uma aldeia. Uma tirania. Uma resposta coletiva.</p>
 <div class="pills"><span class="pill">Florianópolis</span><span class="pill">Teatro Sesc Prainha</span><span class="pill">Estreia · 16 out</span></div>
 </div>
@@ -20,6 +20,26 @@ description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 <div class="unit"><strong data-unit="seconds">--</strong><span>seg</span></div>
 </div>
 </aside>
+</div>
+</section>
+
+<section class="section poster-section">
+<div class="wrap poster-grid">
+<figure class="poster-frame">
+<img src="{{ '/assets/images/cartaz-fuenteovejuna.png' | relative_url }}" alt="Cartaz de Fuenteovejuna com as datas das apresentações no Teatro Sesc Prainha">
+</figure>
+<div class="poster-copy">
+<p class="eyebrow">Espetáculo teatral</p>
+<h2 class="poster-slogan">É DE TODOS.<br>POR TODAS.</h2>
+<p class="poster-lead">Onde um responde por todos, todos respondem por um.</p>
+<div class="poster-dates">
+<span><strong>16/10</strong> · sexta · 19h</span>
+<span><strong>17/10</strong> · sábado · 18h</span>
+<span><strong>20/10</strong> · terça · 19h</span>
+<span><strong>24/10</strong> · sábado · 19h</span>
+</div>
+<p><strong>Teatro Sesc Prainha</strong><br>Tv. Siríaco Atherino, 100 · Centro · Florianópolis</p>
+</div>
 </div>
 </section>
 
@@ -55,7 +75,7 @@ description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 </div>
 </div></section>
 
-<section class="quote"><strong>“Fuenteovejuna.”</strong><p>Uma só resposta</p></section>
+<section class="quote"><strong>É DE TODOS. POR TODAS.</strong><p>Fuenteovejuna</p></section>
 
 <script type="application/json" id="events-json">[
 {% for event in site.data.events %}
