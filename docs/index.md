@@ -32,8 +32,17 @@ description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 <p class="eyebrow">Produção</p><h2 class="title">Painel rápido</h2>
 <div class="grid3">
 <article class="card"><h3>Cena</h3><div class="row"><span>1º e 2º atos</span><span class="status green">encaminhados</span></div><div class="row"><span>3º ato</span><span class="status red">prioridade</span></div></article>
-<article class="card"><h3>Visual</h3><div class="row"><span>Figurino</span><span class="status">andamento</span></div><div class="row"><span>Caracterização</span><span class="status">andamento</span></div></article>
+<article class="card"><h3>Objetos</h3><div class="row"><span>Besta e chicote</span><span class="status green">disponíveis</span></div><div class="row"><span>Demais adereços</span><span class="status">a providenciar</span></div></article>
 <article class="card"><h3>Técnica</h3><div class="row"><span>Luz e som</span><span class="status">a fechar</span></div><div class="row"><span>Ensaio geral</span><span class="status red">pendente</span></div></article>
+</div>
+</div></section>
+
+<section class="section"><div class="wrap">
+<p class="eyebrow">Bastidores</p><h2 class="title">Produção prática</h2>
+<div class="grid3">
+<article class="card"><h3>Checklist de objetos</h3><p>Todos os elementos de cena organizados por cena e função: presentes, armas, bar, tortura, revolta e cena final.</p><a class="button" href="{{ '/objetos/' | relative_url }}">Ver objetos</a></article>
+<article class="card"><h3>Alternativas artesanais</h3><p>Soluções baratas, reutilizáveis e seguras para criar os objetos com boa leitura da plateia.</p><a class="button" href="{{ '/alternativas/' | relative_url }}">Ver soluções</a></article>
+<article class="card"><h3>Produção</h3><p>Decisões de segurança, linguagem visual, terceiro ato, interrogatório, caracterização e técnica.</p><a class="button" href="{{ '/producao/' | relative_url }}">Abrir produção</a></article>
 </div>
 </div></section>
 
