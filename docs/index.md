@@ -43,9 +43,30 @@ description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 </div>
 </section>
 
+<section class="section"><div class="wrap">
+<div class="commitment-grid">
+<article id="next-event" class="card next next-feature"><p class="eyebrow">Próximo compromisso</p><h2>Carregando agenda…</h2></article>
+<article class="card upcoming-card"><p class="eyebrow">Na sequência</p><h2>Próximos compromissos</h2><div id="upcoming-events" class="compact-events"><p>Carregando…</p></div></article>
+</div>
+</div></section>
+
+<section class="section section-tight"><div class="wrap">
+<p class="eyebrow">Ensaios</p><h2 class="title">Agenda de ensaios</h2>
+<div class="grid2">
+<article class="card schedule-card"><h3>Ensaios regulares de sexta</h3><p class="schedule-intro">Agenda regular do grupo, separada dos ensaios extras.</p><div id="friday-rehearsals" class="compact-events"><p>Carregando…</p></div></article>
+<article class="card schedule-card"><h3>Demais ensaios</h3><p class="schedule-intro">Ensaios extras em outros dias e locais.</p><div id="other-rehearsals" class="compact-events"><p>Carregando…</p></div></article>
+</div>
+<p class="agenda-link"><a class="button" href="{{ '/agenda/' | relative_url }}">Ver agenda completa</a></p>
+</div></section>
+
+<section class="section section-tight"><div class="wrap">
+<p class="eyebrow">Ensaio individual</p><h2 class="title">Leitor de Ensaio Fuenteovejuna</h2>
+<article class="card reader-card"><div><h3>Treine suas falas com as deixas da cena</h3><p>Aplicação em um único arquivo HTML para apoio ao ensaio individual. Baixe o arquivo, abra no navegador e escolha personagem, ato e cena. Não precisa instalar nada.</p></div><div class="reader-actions"><a class="button" href="{{ '/leitor-de-ensaio/' | relative_url }}">Como usar e baixar</a><a class="text-link" href="https://github.com/flaviomagno/teatro/raw/refs/heads/main/2026-fuenteovejuna/leitor-de-ensaio/Leitor_Ensaio_Fuenteovejuna_v20_dialogo_padrao_2026-08-30.html">Baixar direto</a></div></article>
+</div></section>
+
 <section class="section"><div class="wrap grid2">
-<article id="next-event" class="card next"><p class="eyebrow">Próximo compromisso</p><h2>Carregando agenda…</h2></article>
 <article class="card"><p class="eyebrow">Agora</p><h2>Prioridade da montagem</h2><p>Finalizar e consolidar o <strong>terceiro ato</strong>, junto com as amarrações técnicas para a temporada.</p><a class="button" href="{{ '/tarefas/' | relative_url }}">Abrir checklist</a></article>
+<article class="card"><p class="eyebrow">Produção</p><h2>Trabalho da montagem</h2><p>Acompanhe decisões, objetos, soluções práticas, caracterização e questões técnicas da peça.</p><a class="button" href="{{ '/producao/' | relative_url }}">Abrir produção</a></article>
 </div></section>
 
 <section class="section"><div class="wrap">
@@ -79,6 +100,6 @@ description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 
 <script type="application/json" id="events-json">[
 {% for event in site.data.events %}
-{"title":{{ event.title | jsonify }},"date":{{ event.date | date_to_xmlschema | jsonify }},"display_date":{{ event.display_date | jsonify }},"time":{{ event.time | jsonify }},"place":{{ event.place | jsonify }},"note":{{ event.note | jsonify }}}{% unless forloop.last %},{% endunless %}
+{"title":{{ event.title | jsonify }},"date":{{ event.date | date_to_xmlschema | jsonify }},"display_date":{{ event.display_date | jsonify }},"weekday":{{ event.weekday | jsonify }},"time":{{ event.time | jsonify }},"place":{{ event.place | jsonify }},"kind":{{ event.kind | jsonify }},"note":{{ event.note | jsonify }}}{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]</script>
