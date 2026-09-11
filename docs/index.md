@@ -9,7 +9,7 @@ description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 </figure>
 <div class="hero-meta">
 <div class="wrap hero-tools">
-<div class="pills"><span class="pill">Florianópolis</span><span class="pill">Teatro Sesc Prainha</span><span class="pill">Estreia · 16 out</span></div>
+<div class="pills"><span class="pill">Mostra dos Cursos de Artes e Cultura · Sesc 2026</span><span class="pill">Turma de Teatro Adulto</span><span class="pill">Florianópolis</span><span class="pill">Teatro Sesc Prainha</span><span class="pill">Estreia · 16 out</span></div>
 <aside class="count" data-countdown="2026-10-16T19:00:00-03:00">
 <p class="eyebrow" data-label>Contagem para a estreia</p>
 <div class="count-grid">
@@ -29,19 +29,29 @@ description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 <img src="{{ '/assets/images/cartaz-fuenteovejuna.png' | relative_url }}" alt="Cartaz de Fuenteovejuna com as datas das apresentações no Teatro Sesc Prainha">
 </figure>
 <div class="poster-copy">
-<p class="eyebrow">Espetáculo teatral</p>
+<p class="eyebrow">Mostra dos Cursos de Artes e Cultura · Sesc 2026</p>
 <h2 class="poster-slogan">É DE TODOS.<br>POR TODAS.</h2>
 <p class="poster-lead">Onde um responde por todos, todos respondem por um.</p>
+<p><strong>Turma de Teatro Adulto</strong></p>
 <div class="poster-dates">
 <span><strong>16/10</strong> · sexta · 19h</span>
 <span><strong>17/10</strong> · sábado · 18h</span>
 <span><strong>20/10</strong> · terça · 19h</span>
 <span><strong>24/10</strong> · sábado · 19h</span>
 </div>
+<p><strong>Entrada gratuita</strong> · Classificação indicativa: <strong>18 anos</strong></p>
 <p><strong>Teatro Sesc Prainha</strong><br>Tv. Siríaco Atherino, 100 · Centro · Florianópolis</p>
 </div>
 </div>
 </section>
+
+<section class="section section-tight"><div class="wrap">
+<p class="eyebrow">Sobre o espetáculo</p><h2 class="title">Fuenteovejuna</h2>
+<div class="grid2">
+<article class="card"><h3>Sinopse oficial</h3><p>Laurencia e Felipe vivem um amor ameaçado pela tirania do Comendador, que abusa de seu poder e da jovem. Cansados dos abusos, os moradores da vila se unem em uma rebelião liderada por Laurencia, em uma luta por justiça, liberdade e empoderamento popular.</p></article>
+<article class="card"><h3>Informações ao público</h3><div class="row"><span>Entrada</span><strong>Gratuita</strong></div><div class="row"><span>Classificação indicativa</span><strong>18 anos</strong></div><div class="row"><span>Local</span><strong>Teatro Sesc Prainha</strong></div><div class="row"><span>Mais informações</span><strong>(48) 98871-7200</strong></div></article>
+</div>
+</div></section>
 
 <section class="section"><div class="wrap">
 <div class="commitment-grid">
@@ -89,6 +99,7 @@ description: Fuenteovejuna — montagem teatral em Florianópolis, 2026.
 
 <section class="section"><div class="wrap">
 <p class="eyebrow">Temporada</p><h2 class="title">Apresentações</h2>
+<p><strong>Entrada gratuita</strong> · Classificação indicativa: <strong>18 anos</strong></p>
 <div class="grid2">
 {% for event in site.data.events %}{% if event.kind == "apresentacao" %}
 <article class="card"><p class="eyebrow">{{ event.weekday }}</p><h3>{{ event.display_date }} · {{ event.time }}</h3><p>{{ event.place }}<br><strong>{{ event.note }}</strong></p></article>
