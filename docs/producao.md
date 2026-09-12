@@ -5,7 +5,7 @@ title: Produção
 
 <section class="pagehead"><div class="wrap"><p class="eyebrow">Bastidores</p><h1>Produção</h1><p>Central das decisões práticas e visuais da montagem.</p></div></section>
 
-<div class="prose">
+<div class="prose" markdown="1">
 
 ## Materiais de produção
 
